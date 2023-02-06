@@ -83,6 +83,9 @@ public class Week02 {
          * call the nextInt method,
          * passing in 10 as an argument.
          */
+        // Note nextInt can also take two arguments.
+        System.out.println(rand.nextInt(1, 7));
+        // The above statement generates numbers 1 to 6 inclusive.
         dieRoll();
         /*
          * Call the static method multiSidedDieRoll
